@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 //controller
+@SuppressWarnings("unused")
 @RestController
 public class HelloWorldController {
 
@@ -19,7 +20,7 @@ public class HelloWorldController {
 	}
 	@GetMapping("/helloworld-Bean")
 	public UserDetails helloworldBean() {
-		return new UserDetails("kass","A","Anderson");
+		return new UserDetails("praise","a","tesfaye", "texas");
 	}
 	      
 	
